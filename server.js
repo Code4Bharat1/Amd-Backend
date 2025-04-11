@@ -52,7 +52,7 @@ app.use('/api/session', VerifyJwt, usertoexpertsessionRouter,experttoexpertsessi
 
 
 // Define the Port
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5069;
 
 // Start the Server
 app.listen(PORT, () => {
